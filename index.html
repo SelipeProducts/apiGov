@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Nutrition </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class='header'>
+      <h1 class= "textCenter"> The USDA Food Composition Databases </h1>
+    </div>
+    <div class = 'desc'>
+      The United States Department of Agriculture Agricultural Research Service provides the public with an API to provide access to their database. Within the database we can find specific foods and nutrient info to each item. You will need to create an API Key through https://api.data.gov/signup/. Paste the key into the field below to gain access to the info.
+    
+    <label for ="apiKey">API Key: </label>
+  	<input type="text" id="apiKey" value ="yqUl0KcKphNycIK2Rx4uDGzvwWzcykt0hXu83usW"><br>    
+  	<button id="ajaxButton">
+    		Get Nutrition Data
+  	</button>
+    </div>
+  	<div>
+      <table id="nutritionData" border = "1" class= "center">
+          <th> ID </th>
+          <th> Name </th>
+         <!-- <th> Nutrients </th>-->
+
+      </table>
+  	</div>
+    <!-- Using JQuery CDN, downloads jquery javascript file from their CDN server -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
