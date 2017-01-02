@@ -1,0 +1,22 @@
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+.textCenter{
+	text-align: center;
+}
+.header{
+	background-color: green;
+	padding-top: 40px;
+}
+.desc{
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 10px;
+}
+td{
+	padding-left: 10px;
+	padding-right: 10px;
+}
